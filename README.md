@@ -4,6 +4,7 @@
 - React
 
 ## File Structure
+```
 simple-website
 ├── README.md
 ├── node_modules/
