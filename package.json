@@ -2,7 +2,7 @@
   "name": "simple-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://koadrienne23.github.io/react-website",
+  "homepage": "http://koadrienne23.github.io/react-website",
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "react": "^17.0.0",
