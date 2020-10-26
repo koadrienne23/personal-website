@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router basename={window.location.pathname || ''}>
+        <Router>
           <Header/>
           <Switch>
             <Route path='/' exact component={HomePage} />
