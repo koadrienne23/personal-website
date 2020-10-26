@@ -7,6 +7,7 @@ import HomePage from './components/pages/HomePage/HomePage';
 import Travel from './components/pages/Travel/Travel';
 import AboutMe from './components/pages/AboutMe/AboutMe';
 import Research from './components/pages/Research/Research';
+import ScrollIntoView from "./components/ScrollIntoView";
 
 import './App.css';
 
@@ -16,12 +17,14 @@ class App extends Component {
       <div className="App">
         <Router>
           <Header/>
-          <Switch>
-            <Route path='/' exact component={HomePage} />
-            <Route path='/about-me' exact component={AboutMe} />
-            <Route path='/travel' exact component={Travel} />
-            <Route path='/research' exact component={Research} />
-          </Switch>
+          <ScrollIntoView>
+            <Switch>
+              <Route path='/' exact component={HomePage} />
+              <Route path='/about-me' exact component={AboutMe} />
+              <Route path='/travel' exact component={Travel} />
+              <Route path='/research' exact component={Research} />
+            </Switch>
+          </ScrollIntoView>
           <Footer/>
         </Router>
       </div>
