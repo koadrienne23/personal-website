@@ -1,0 +1,37 @@
+.hanover-container {
+    background: linear-gradient(180deg,#9DC0D6,#DAC9AE);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+}
+
+.hanover-container > p {
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    color: #747474;
+    font-size: 25px;
+    font-family: 'Avenir';
+}
+
+.hanover-container > img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Make text smaller if the window gets too small */
+
+@media screen and (max-width: 768px) {
+    .hanover-container > p {
+        font-size: 20px;
+    }
+}

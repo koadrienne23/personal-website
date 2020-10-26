@@ -1,0 +1,45 @@
+.nyc-container {
+    background: linear-gradient(180deg,#9DC0D6,#DAC9AE);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+    z-index: 100;
+}
+
+.nyc-container > p {
+    position: absolute;
+    top: 130px;
+    color: #747474;
+    font-size: 30px;
+    font-family: 'Avenir';
+    text-align: center;
+}
+
+.nyc-container > img {
+    position: absolute;
+    bottom: 0;
+    max-width: 105%;
+    z-index: -1;
+}
+
+.balloon > img {
+    position: absolute;
+    top: 50px;
+    right: 170px;
+    width: 9%;
+}
+
+.scrolled > img {
+    position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .nyc-container > p {
+        font-size: 25px;
+    }
+}

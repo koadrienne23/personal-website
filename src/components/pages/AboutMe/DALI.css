@@ -1,0 +1,43 @@
+.dali-container {
+    background: #E6E3DE;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+    z-index: 1000;
+}
+
+.dali-container > h2 {
+    color: #747474;
+    font-size: 40px;
+    max-width: 105%;
+    margin-bottom: 60px;
+}
+
+.dali-text {
+    width: 700px;
+}
+
+.dali-text > p {
+    color: #747474;
+    font-size: 18px;
+    font-family: 'Avenir';
+    text-align: center;
+}
+
+
+/* Make text smaller if the window gets too small */
+
+@media screen and (max-width: 800px) {
+    .dali-text {
+        width: 400px;
+    }
+
+    .dali-text > p {
+        font-size: 15px;
+    }
+}

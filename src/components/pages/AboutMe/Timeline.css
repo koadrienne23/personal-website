@@ -1,0 +1,67 @@
+.timeline-container {
+    background: #E6E3DE;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+}
+
+/* Draw vertical line */
+.vertical {
+    border-left: 7px solid #747474;
+    height: 850px;
+    margin-top: -920px;
+    margin-bottom: 150px;
+}
+
+/* Position horizontal lines/events such that they are 
+spread evenly from the middle along the vertical line */
+
+.event-right, .event-left {
+    position: relative;
+    display: flex;
+    width: 50%;
+    margin: 65px auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 0;
+    width: 50%;
+}
+
+.right > p {
+    margin-left: 30px;
+    text-align: left;
+    color: #747474;
+    font-size: 18px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 auto;
+    width: 50%;
+}
+
+.left > p {
+    margin-right: 30px;
+    text-align: left;
+    color: #747474;
+    font-size: 18px;
+}
+
+.text {
+    margin-top: 3%;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+hr {
+    width: 100px;
+    border-top: 7px solid #747474;
+}

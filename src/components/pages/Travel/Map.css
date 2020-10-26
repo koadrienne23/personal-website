@@ -1,0 +1,64 @@
+.map {
+    padding: 4rem;
+    margin-top: 2rem;
+}
+
+.map-container {
+    position: relative;
+    height: 100vh;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.world-map {
+    width: 85vw;
+}
+
+.fa-map-pin {
+    color: #F0B700;
+}
+
+.fa-map-pin:hover {
+    color: red;
+}
+
+.Modal {
+    position: relative;
+    width: 60vw;
+    height: 40vw;
+    top: 15vh;
+    left: 20vw;
+    background: #E6E3DE;
+    display: flex;
+    flex-direction: column;
+    outline-color: #C2BEB7;
+}
+
+.Modal > h1 {
+    margin: 5% auto 1% auto;
+}
+
+.Modal > i {
+    font-size: 30px;
+    margin: 0 auto;
+    color: #747474;
+    transform: translate(27vw, -10vh);
+}
+
+.gallery-image {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.slide-controls {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+}
+
+.slide-controls > i {
+    font-size: 35px;
+    transform: translateY(-1vh);
+    margin: 0 5vw;
+    color: #747474;
+}

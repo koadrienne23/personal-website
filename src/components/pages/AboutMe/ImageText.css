@@ -1,0 +1,43 @@
+.img-text-container {
+    background: #E6E3DE;
+    height:550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+}
+
+.img-text-container > p {
+    text-align: left;
+    margin-right: 15%;
+    color: #747474;
+    font-size: 25px;
+    font-family: 'Avenir';
+    width: 30%;
+}
+
+.img-text-container > img {
+    margin-left: 12%;
+    width: 35%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .img-text-container > p {
+        font-size: 20px;
+    }
+}
+
+.title {
+    color: #747474;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.funfacts {
+    margin-bottom: 120px;
+}
