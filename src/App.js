@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router basename="/react-website">
+        <Router>
           <Header/>
           <ScrollIntoView>
             <Switch>
