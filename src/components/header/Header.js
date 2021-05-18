@@ -60,6 +60,11 @@ const Header = () => {
                                 Research
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link to='/quiz' className='nav-links' onClick={closeMobileMenu}>
+                                Quiz
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </header>

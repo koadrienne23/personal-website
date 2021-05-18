@@ -1,0 +1,109 @@
+#quiz-header {
+  font-size: 60px;
+  margin-top: 6rem;
+  margin-bottom: 0;
+}
+
+.quiz-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 650px;
+  margin-block: 5rem;
+  padding-block: 4rem;
+  padding-inline: 5rem;
+  border-radius: 20px;
+  background-color: rgba(157, 192, 214, 0.651);
+  color: #747474;
+}
+
+.question {
+  margin-block: 2rem;
+}
+
+ul{
+  list-style: none;
+  line-height: 50px;
+}
+
+.answerOption input {
+  width: 20px;
+  height: 20px;
+  margin-inline: 1rem;
+}
+
+.answerOption:hover label, input {
+  color: #b9b3b3;
+}
+
+.answerOption label {
+  font-size: 18px;
+}
+
+.quiz-start {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.quiz-start input {
+  margin: 1rem auto;
+  height: 40px;
+  width: 15rem;
+  padding-inline: 1rem;
+  color: rgb(105, 106, 109);
+}
+.quiz-start h1 {
+  margin: 1rem auto;
+  margin-top: 50px;
+}
+.quiz-start h1:hover {
+  color: aliceblue;
+}
+.quiz-start p {
+  margin: 1rem auto;
+  color: rgb(167, 40, 40);
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+.result p {
+  margin: 1rem auto;
+  font-size: 25px;
+}
+.result button {
+  margin: 1rem auto;
+}
+.result h2 {
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.result .scoreboard {
+  margin: 1rem auto;
+  width: 40%;
+  height: 250px;
+  overflow-y: scroll;
+  background-color: #E6E3DE;
+}
+.result table {
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.result td {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+}
+.result th {
+  height: 80px;
+  font-size: 20px;
+}
+
+.restart {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}

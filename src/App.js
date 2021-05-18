@@ -7,6 +7,7 @@ import HomePage from './components/pages/HomePage/HomePage';
 import Travel from './components/pages/Travel/Travel';
 import AboutMe from './components/pages/AboutMe/AboutMe';
 import Research from './components/pages/Research/Research';
+import Quiz from './components/pages/Quiz/Quiz';
 import ScrollIntoView from "./components/ScrollIntoView";
 
 import './App.css';
@@ -23,6 +24,7 @@ class App extends Component {
               <Route path='/about-me' exact component={AboutMe} />
               <Route path='/travel' exact component={Travel} />
               <Route path='/research' exact component={Research} />
+              <Route path='/quiz' exact component={Quiz} />
             </Switch>
           </ScrollIntoView>
           <Footer/>
