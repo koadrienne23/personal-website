@@ -2,6 +2,7 @@
 
 ## Tech Stack
 - React
+- Firebase
 
 ## File Structure
 ```
@@ -31,6 +32,7 @@ simple-website
 │       │   └── HomePage/
 │       │   └── Research/
 │       │   └── Travel/
+│       │   └── Quiz/
 │       └── ScrollIntoView.js
 └── .gitignore
 ```
