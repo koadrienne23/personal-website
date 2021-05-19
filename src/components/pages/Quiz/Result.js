@@ -11,6 +11,7 @@ class Result extends React.Component  {
   }
   componentDidMount() {
       db.fetchScores(this.fetchedScores); // call to database
+      console.log("mounted");
   }
 
   // return scores from users
@@ -25,13 +26,15 @@ class Result extends React.Component  {
           for (const [, value] of Object.entries(this.state.scores)){
               this.setState({ sortedScores: { ...this.state.sortedScores, [value.name] : value.score } })
           }
+          console.log(this.state.sortedScores);
       }
   }
 
   render() {
+      //Sorts the highscores
       let totalScores = null
-      //Sorts the highscores, displaying score as name: score
-      if (this.state.sortedScores !== null){
+      if (this.state.sortedScores !== {}){
+        console.log(this.state.sortedScores);
           totalScores = Object.entries(this.state.sortedScores).sort((a,b) => b[1]-a[1]).map(value => {
               return(
                 <tbody>

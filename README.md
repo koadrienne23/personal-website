@@ -44,7 +44,9 @@ simple-website
 4. navigate to http://localhost:3000  to see homepage
 
 ## Deployed Link:
-[Website Link!](adriennek.me)
+[Website Link!](adriennek-website.web.app)
 
 ### Update:
 My website runs locally (running `npm start`) but I could not get it to deploy properly on time, so the link above does not work.
+
+The scaling of the pins/map on the travel page is off.
